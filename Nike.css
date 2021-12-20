@@ -219,6 +219,20 @@ nav ul li a i {
   height: 100%;
   position: absolute;
 }
+
+.anim{
+ animation: anime 2s ease-in-out forwards infinite alternate;
+
+}
+
+@keyframes anime {
+  from{
+     transform: translateX(3%);
+  }
+  to{
+    transform:translateX(-3%);
+  }
+}
 .home p {
   color: rgba(255, 154, 0, 1);
   font-size: 35px;
@@ -240,6 +254,7 @@ nav ul li a i {
 .feature .shoe {
   position: absolute;
   left: -140px;
+  top:10%
 }
 
 .feature .col-lg-4 {
@@ -475,6 +490,8 @@ footer input {
 }
 footer .fd {
   margin-left: -10px;
+  color: white;
+  cursor: pointer;
 }
 
 footer .hr1 {
