@@ -7,15 +7,10 @@
   font-family: "Bebas Neue", cursive;
 }
 
-html {
+body ,html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
-
-body {
-  overflow: hidden;
-}
-
-
 
 nav {
   background: rgba(255, 255, 245, 1);
